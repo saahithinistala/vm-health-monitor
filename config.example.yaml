@@ -1,0 +1,24 @@
+ssh:
+  host: YOUR_VM_IP
+  username: YOUR_USERNAME
+  port: 22
+  key_filename: /path/to/private/key
+
+metrics:
+  cpu_usage_warning: 70
+  cpu_usage_critical: 85
+  memory_usage_warning: 75
+  memory_usage_critical: 90
+  disk_usage_warning: 80
+  disk_usage_critical: 90
+  load_average_warning: 0.8
+  load_average_critical: 1.2
+
+email:
+  sender: "your_email@gmail.com"
+  receiver: "your_email@gmail.com"
+  mail_server: "smtp.gmail.com"
+  port: 465
+
+logs:
+  application_log: /path/to/application.log
